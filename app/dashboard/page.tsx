@@ -1,6 +1,6 @@
 import DashboardCards from "@/components/cards"
 import ReviewsTable from "@/components/reviews-table"
-import Insights from "@/components/insights"
+import InsightsSection from "@/components/insights-section"
 import Alerts from "@/components/alerts"
 
 export default function Dashboard() {
@@ -15,7 +15,7 @@ export default function Dashboard() {
 
       <section className="space-y-6">
         <h2 className="text-xl font-semibold">Insights de IA</h2>
-        <Insights />
+        <InsightsSection />
       </section>
 
       <section className="space-y-6">
